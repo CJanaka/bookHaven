@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Forms\AdminDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\BookManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\ClearkDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\CustomerManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\CustomerPos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\OrderDetailView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\OrderManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\PlaceStockOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\StockOrderManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\SupplierManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\UserManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Forms\SupplierManagement.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
