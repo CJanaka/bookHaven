@@ -51,8 +51,10 @@
             password.Font = new Font("Segoe UI", 11F);
             password.Location = new Point(330, 225);
             password.Name = "password";
+            password.PasswordChar = '*';
             password.Size = new Size(243, 32);
             password.TabIndex = 1;
+            password.UseSystemPasswordChar = true;
             password.TextChanged += password_TextChanged;
             // 
             // label1

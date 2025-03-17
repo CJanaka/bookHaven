@@ -35,16 +35,17 @@
             deleteBtn = new Button();
             updateBtn = new Button();
             addBtn = new Button();
-            userGridView = new DataGridView();
-            textBox1 = new TextBox();
+            usersGridView = new DataGridView();
+            id = new TextBox();
             label2 = new Label();
             label1 = new Label();
-            textBox2 = new TextBox();
+            userName = new TextBox();
             label3 = new Label();
-            textBox3 = new TextBox();
+            password = new TextBox();
             label4 = new Label();
-            statusComboBox = new ComboBox();
-            ((System.ComponentModel.ISupportInitialize)userGridView).BeginInit();
+            rolesBox = new ComboBox();
+            backBtn = new Button();
+            ((System.ComponentModel.ISupportInitialize)usersGridView).BeginInit();
             SuspendLayout();
             // 
             // label8
@@ -66,6 +67,7 @@
             clrBtn.TabIndex = 49;
             clrBtn.Text = "Clear";
             clrBtn.UseVisualStyleBackColor = true;
+            clrBtn.Click += clrBtn_Click;
             // 
             // search
             // 
@@ -82,6 +84,7 @@
             searchBtn.TabIndex = 47;
             searchBtn.Text = "Search";
             searchBtn.UseVisualStyleBackColor = true;
+            searchBtn.Click += searchBtn_Click;
             // 
             // deleteBtn
             // 
@@ -91,6 +94,7 @@
             deleteBtn.TabIndex = 46;
             deleteBtn.Text = "Remove";
             deleteBtn.UseVisualStyleBackColor = true;
+            deleteBtn.Click += deleteBtn_Click;
             // 
             // updateBtn
             // 
@@ -100,6 +104,7 @@
             updateBtn.TabIndex = 45;
             updateBtn.Text = "Update";
             updateBtn.UseVisualStyleBackColor = true;
+            updateBtn.Click += updateBtn_Click;
             // 
             // addBtn
             // 
@@ -109,22 +114,25 @@
             addBtn.TabIndex = 44;
             addBtn.Text = "+ Add";
             addBtn.UseVisualStyleBackColor = true;
+            addBtn.Click += addBtn_Click;
             // 
-            // userGridView
+            // usersGridView
             // 
-            userGridView.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            userGridView.Location = new Point(22, 300);
-            userGridView.Name = "userGridView";
-            userGridView.RowHeadersWidth = 51;
-            userGridView.Size = new Size(881, 193);
-            userGridView.TabIndex = 43;
+            usersGridView.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            usersGridView.Location = new Point(22, 300);
+            usersGridView.Name = "usersGridView";
+            usersGridView.RowHeadersWidth = 51;
+            usersGridView.Size = new Size(881, 193);
+            usersGridView.TabIndex = 43;
+            usersGridView.CellClick += cellClick;
             // 
-            // textBox1
+            // id
             // 
-            textBox1.Location = new Point(138, 94);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(187, 27);
-            textBox1.TabIndex = 50;
+            id.Enabled = false;
+            id.Location = new Point(138, 94);
+            id.Name = "id";
+            id.Size = new Size(187, 27);
+            id.TabIndex = 50;
             // 
             // label2
             // 
@@ -144,12 +152,12 @@
             label1.TabIndex = 53;
             label1.Text = "User Name";
             // 
-            // textBox2
+            // userName
             // 
-            textBox2.Location = new Point(138, 146);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(187, 27);
-            textBox2.TabIndex = 52;
+            userName.Location = new Point(138, 146);
+            userName.Name = "userName";
+            userName.Size = new Size(187, 27);
+            userName.TabIndex = 52;
             // 
             // label3
             // 
@@ -160,12 +168,12 @@
             label3.TabIndex = 55;
             label3.Text = "Password";
             // 
-            // textBox3
+            // password
             // 
-            textBox3.Location = new Point(488, 97);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(187, 27);
-            textBox3.TabIndex = 54;
+            password.Location = new Point(488, 97);
+            password.Name = "password";
+            password.Size = new Size(187, 27);
+            password.TabIndex = 54;
             // 
             // label4
             // 
@@ -176,39 +184,49 @@
             label4.TabIndex = 57;
             label4.Text = "User Roles";
             // 
-            // statusComboBox
+            // rolesBox
             // 
-            statusComboBox.FormattingEnabled = true;
-            statusComboBox.Items.AddRange(new object[] { "InStoreCompleted", "ToDeliver", "Canceled", "DeliverCompleted" });
-            statusComboBox.Location = new Point(488, 146);
-            statusComboBox.Name = "statusComboBox";
-            statusComboBox.Size = new Size(187, 28);
-            statusComboBox.TabIndex = 56;
+            rolesBox.FormattingEnabled = true;
+            rolesBox.Location = new Point(488, 146);
+            rolesBox.Name = "rolesBox";
+            rolesBox.Size = new Size(187, 28);
+            rolesBox.TabIndex = 56;
+            // 
+            // backBtn
+            // 
+            backBtn.Location = new Point(33, 23);
+            backBtn.Name = "backBtn";
+            backBtn.Size = new Size(94, 29);
+            backBtn.TabIndex = 58;
+            backBtn.Text = "< Back";
+            backBtn.UseVisualStyleBackColor = true;
+            backBtn.Click += backBtn_Click_1;
             // 
             // UserManagement
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(926, 516);
+            Controls.Add(backBtn);
             Controls.Add(label4);
-            Controls.Add(statusComboBox);
+            Controls.Add(rolesBox);
             Controls.Add(label3);
-            Controls.Add(textBox3);
+            Controls.Add(password);
             Controls.Add(label1);
-            Controls.Add(textBox2);
+            Controls.Add(userName);
             Controls.Add(label2);
-            Controls.Add(textBox1);
+            Controls.Add(id);
             Controls.Add(clrBtn);
             Controls.Add(search);
             Controls.Add(searchBtn);
             Controls.Add(deleteBtn);
             Controls.Add(updateBtn);
             Controls.Add(addBtn);
-            Controls.Add(userGridView);
+            Controls.Add(usersGridView);
             Controls.Add(label8);
             Name = "UserManagement";
             Text = "UserManagement";
-            ((System.ComponentModel.ISupportInitialize)userGridView).EndInit();
+            ((System.ComponentModel.ISupportInitialize)usersGridView).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -222,14 +240,15 @@
         private Button deleteBtn;
         private Button updateBtn;
         private Button addBtn;
-        private DataGridView userGridView;
-        private TextBox textBox1;
+        private DataGridView usersGridView;
+        private TextBox id;
         private Label label2;
         private Label label1;
-        private TextBox textBox2;
+        private TextBox userName;
         private Label label3;
-        private TextBox textBox3;
+        private TextBox password;
         private Label label4;
-        private ComboBox statusComboBox;
+        private ComboBox rolesBox;
+        private Button backBtn;
     }
 }

@@ -3,152 +3,160 @@
   "WorkspaceRootPath": "E:\\ESO\\practicles\\BookHaven\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|e:\\eso\\practicles\\bookhaven\\forms\\placestockorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:forms\\placestockorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|e:\\eso\\practicles\\bookhaven\\common\\common.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:common\\common.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|e:\\eso\\practicles\\bookhaven\\forms\\placestockorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:forms\\placestockorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|e:\\eso\\practicles\\bookhaven\\forms\\orderdetailview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:forms\\orderdetailview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|e:\\eso\\practicles\\bookhaven\\forms\\customerpos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:forms\\customerpos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|e:\\eso\\practicles\\bookhaven\\forms\\customerpos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:forms\\customerpos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|e:\\eso\\practicles\\bookhaven\\data\\entity\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:data\\entity\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|e:\\eso\\practicles\\bookhaven\\forms\\stockordermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:forms\\stockordermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|e:\\eso\\practicles\\bookhaven\\forms\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:forms\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|e:\\eso\\practicles\\bookhaven\\forms\\suppliermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:forms\\suppliermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|e:\\eso\\practicles\\bookhaven\\forms\\usermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:forms\\usermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|e:\\eso\\practicles\\bookhaven\\forms\\ordermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:forms\\ordermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|e:\\eso\\practicles\\bookhaven\\forms\\customermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:forms\\customermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|e:\\eso\\practicles\\bookhaven\\forms\\bookmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:forms\\bookmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|e:\\eso\\practicles\\bookhaven\\forms\\clearkdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:forms\\clearkdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|e:\\eso\\practicles\\bookhaven\\forms\\usermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:forms\\usermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|e:\\eso\\practicles\\bookhaven\\forms\\clearkdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:forms\\clearkdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|e:\\eso\\practicles\\bookhaven\\forms\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:forms\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|e:\\eso\\practicles\\bookhaven\\data\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:data\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|e:\\eso\\practicles\\bookhaven\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|e:\\eso\\practicles\\bookhaven\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|e:\\eso\\practicles\\bookhaven\\data\\entity\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:data\\entity\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|e:\\eso\\practicles\\bookhaven\\data\\entity\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:data\\entity\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|e:\\eso\\practicles\\bookhaven\\data\\entity\\stockorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:data\\entity\\stockorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|e:\\eso\\practicles\\bookhaven\\data\\entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:data\\entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|e:\\eso\\practicles\\bookhaven\\data\\entity\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:data\\entity\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|e:\\eso\\practicles\\bookhaven\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|e:\\eso\\practicles\\bookhaven\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|e:\\eso\\practicles\\bookhaven\\forms\\customermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:forms\\customermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|e:\\eso\\practicles\\bookhaven\\business\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:business\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|e:\\eso\\practicles\\bookhaven\\forms\\bookmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:forms\\bookmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|e:\\eso\\practicles\\bookhaven\\forms\\stockordermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:forms\\stockordermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|E:\\ESO\\practicles\\BookHaven\\forms\\bookmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:forms\\bookmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|e:\\eso\\practicles\\bookhaven\\forms\\orderdetailview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:forms\\orderdetailview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|e:\\eso\\practicles\\bookhaven\\forms\\usermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:forms\\usermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|e:\\eso\\practicles\\bookhaven\\forms\\placestockorder.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:forms\\placestockorder.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|E:\\ESO\\practicles\\BookHaven\\forms\\usermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:forms\\usermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|e:\\eso\\practicles\\bookhaven\\data\\repository\\stockorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:data\\repository\\stockorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|e:\\eso\\practicles\\bookhaven\\forms\\customermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:forms\\customermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|e:\\eso\\practicles\\bookhaven\\data\\repository\\orderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:data\\repository\\orderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|E:\\ESO\\practicles\\BookHaven\\forms\\customermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:forms\\customermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|e:\\eso\\practicles\\bookhaven\\data\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:data\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|e:\\eso\\practicles\\bookhaven\\data\\repository\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:data\\repository\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|e:\\eso\\practicles\\bookhaven\\data\\repository\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:data\\repository\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|e:\\eso\\practicles\\bookhaven\\migrations\\20250313173212_uid_s_order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:migrations\\20250313173212_uid_s_order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|e:\\eso\\practicles\\bookhaven\\data\\repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:data\\repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|e:\\eso\\practicles\\bookhaven\\forms\\suppliermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:forms\\suppliermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|e:\\eso\\practicles\\bookhaven\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|e:\\eso\\practicles\\bookhaven\\forms\\salesreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:forms\\salesreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|E:\\ESO\\practicles\\BookHaven\\forms\\salesreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:forms\\salesreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|E:\\ESO\\practicles\\BookHaven\\forms\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:forms\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|e:\\eso\\practicles\\bookhaven\\business\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:business\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|e:\\eso\\practicles\\bookhaven\\data\\repository\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:data\\repository\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|e:\\eso\\practicles\\bookhaven\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|e:\\eso\\practicles\\bookhaven\\data\\entity\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:data\\entity\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|e:\\eso\\practicles\\bookhaven\\forms\\customerpos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:forms\\customerpos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|E:\\ESO\\practicles\\BookHaven\\forms\\customerpos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:forms\\customerpos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|E:\\ESO\\practicles\\BookHaven\\forms\\placestockorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:forms\\placestockorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|e:\\eso\\practicles\\bookhaven\\forms\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:forms\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|e:\\eso\\practicles\\bookhaven\\data\\repository\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:data\\repository\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|e:\\eso\\practicles\\bookhaven\\common\\receiptgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:common\\receiptgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|e:\\eso\\practicles\\bookhaven\\forms\\stockordermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:forms\\stockordermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|E:\\ESO\\practicles\\BookHaven\\forms\\orderdetailview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:forms\\orderdetailview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|E:\\ESO\\practicles\\BookHaven\\forms\\suppliermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:forms\\suppliermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|e:\\eso\\practicles\\bookhaven\\data\\entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:data\\entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\ESO\\practicles\\BookHaven\\Migrations\\20250315163842_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250315163842_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|E:\\ESO\\practicles\\BookHaven\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|E:\\ESO\\practicles\\BookHaven\\forms\\stockordermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:forms\\stockordermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|e:\\eso\\practicles\\bookhaven\\data\\entity\\stockorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:data\\entity\\stockorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|e:\\eso\\practicles\\bookhaven\\data\\entity\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:data\\entity\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|e:\\eso\\practicles\\bookhaven\\forms\\orderdetailview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:forms\\orderdetailview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|e:\\eso\\practicles\\bookhaven\\data\\repository\\stockorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:data\\repository\\stockorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|e:\\eso\\practicles\\bookhaven\\migrations\\20250315165643_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:migrations\\20250315165643_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|e:\\eso\\practicles\\bookhaven\\migrations\\20250315165624_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C10E6DE9-782B-4B58-8058-6550B66D1375}|BookHaven.csproj|solutionrelative:migrations\\20250315165624_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -167,117 +175,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Book.cs",
-              "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Data\\entity\\Book.cs",
-              "RelativeDocumentMoniker": "Data\\entity\\Book.cs",
-              "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Data\\entity\\Book.cs",
-              "RelativeToolTip": "Data\\entity\\Book.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwB0AAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T04:17:55.811Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CustomerPos.cs [Design]",
-              "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Forms\\CustomerPos.cs",
-              "RelativeDocumentMoniker": "Forms\\CustomerPos.cs",
-              "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Forms\\CustomerPos.cs [Design]",
-              "RelativeToolTip": "Forms\\CustomerPos.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T21:02:06.571Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CustomerPos.cs",
-              "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Forms\\CustomerPos.cs",
-              "RelativeDocumentMoniker": "Forms\\CustomerPos.cs",
-              "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Forms\\CustomerPos.cs",
-              "RelativeToolTip": "Forms\\CustomerPos.cs",
-              "ViewState": "AgIAAGsAAAAAAAAAAAAAAHMAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T04:58:00.004Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OrderDetailView.cs [Design]",
-              "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Forms\\OrderDetailView.cs",
-              "RelativeDocumentMoniker": "Forms\\OrderDetailView.cs",
-              "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Forms\\OrderDetailView.cs [Design]",
-              "RelativeToolTip": "Forms\\OrderDetailView.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T18:49:19.33Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PlaceStockOrder.cs [Design]",
-              "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Forms\\PlaceStockOrder.cs",
-              "RelativeDocumentMoniker": "Forms\\PlaceStockOrder.cs",
-              "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Forms\\PlaceStockOrder.cs [Design]",
-              "RelativeToolTip": "Forms\\PlaceStockOrder.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T22:08:43.038Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PlaceStockOrder.cs",
-              "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Forms\\PlaceStockOrder.cs",
-              "RelativeDocumentMoniker": "Forms\\PlaceStockOrder.cs",
-              "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Forms\\PlaceStockOrder.cs",
-              "RelativeToolTip": "Forms\\PlaceStockOrder.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAhwGYAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T22:21:43.252Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "StockOrderManagement.cs [Design]",
-              "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Forms\\StockOrderManagement.cs",
-              "RelativeDocumentMoniker": "Forms\\StockOrderManagement.cs",
-              "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Forms\\StockOrderManagement.cs [Design]",
-              "RelativeToolTip": "Forms\\StockOrderManagement.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T15:21:18.545Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AdminDashboard.cs [Design]",
-              "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Forms\\AdminDashboard.cs",
-              "RelativeDocumentMoniker": "Forms\\AdminDashboard.cs",
-              "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Forms\\AdminDashboard.cs [Design]",
-              "RelativeToolTip": "Forms\\AdminDashboard.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T15:41:47.313Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "SupplierManagement.cs [Design]",
-              "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Forms\\SupplierManagement.cs",
-              "RelativeDocumentMoniker": "Forms\\SupplierManagement.cs",
-              "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Forms\\SupplierManagement.cs [Design]",
-              "RelativeToolTip": "Forms\\SupplierManagement.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T18:57:20.539Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "UserManagement.cs [Design]",
               "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Forms\\UserManagement.cs",
               "RelativeDocumentMoniker": "Forms\\UserManagement.cs",
@@ -289,31 +186,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "OrderManagement.cs [Design]",
-              "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Forms\\OrderManagement.cs",
-              "RelativeDocumentMoniker": "Forms\\OrderManagement.cs",
-              "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Forms\\OrderManagement.cs [Design]",
-              "RelativeToolTip": "Forms\\OrderManagement.cs [Design]",
+              "DocumentIndex": 4,
+              "Title": "UserManagement.cs",
+              "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Forms\\UserManagement.cs",
+              "RelativeDocumentMoniker": "Forms\\UserManagement.cs",
+              "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Forms\\UserManagement.cs",
+              "RelativeToolTip": "Forms\\UserManagement.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAAAHIAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T18:41:17.94Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-03-15T05:04:36.893Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CustomerManagement.cs [Design]",
-              "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Forms\\CustomerManagement.cs",
-              "RelativeDocumentMoniker": "Forms\\CustomerManagement.cs",
-              "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Forms\\CustomerManagement.cs [Design]",
-              "RelativeToolTip": "Forms\\CustomerManagement.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T15:30:08.554Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 3,
               "Title": "BookManagement.cs [Design]",
               "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Forms\\BookManagement.cs",
               "RelativeDocumentMoniker": "Forms\\BookManagement.cs",
@@ -325,91 +211,79 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ClearkDashboard.cs [Design]",
-              "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Forms\\ClearkDashboard.cs",
-              "RelativeDocumentMoniker": "Forms\\ClearkDashboard.cs",
-              "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Forms\\ClearkDashboard.cs [Design]",
-              "RelativeToolTip": "Forms\\ClearkDashboard.cs [Design]",
+              "DocumentIndex": 2,
+              "Title": "BookManagement.cs",
+              "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Forms\\BookManagement.cs",
+              "RelativeDocumentMoniker": "Forms\\BookManagement.cs",
+              "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Forms\\BookManagement.cs",
+              "RelativeToolTip": "Forms\\BookManagement.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAAAFQAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T05:02:30.52Z",
+              "WhenOpened": "2025-03-13T18:49:38.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Business\\services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Business\\services\\AuthService.cs",
+              "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Business\\services\\AuthService.cs",
+              "RelativeToolTip": "Business\\services\\AuthService.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAWwD0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T19:00:06.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Common.cs",
+              "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Common\\Common.cs",
+              "RelativeDocumentMoniker": "Common\\Common.cs",
+              "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Common\\Common.cs",
+              "RelativeToolTip": "Common\\Common.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T19:00:20.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CustomerManagement.cs",
+              "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Forms\\CustomerManagement.cs",
+              "RelativeDocumentMoniker": "Forms\\CustomerManagement.cs",
+              "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Forms\\CustomerManagement.cs",
+              "RelativeToolTip": "Forms\\CustomerManagement.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAAAHUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T04:58:53.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CustomerManagement.cs [Design]",
+              "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Forms\\CustomerManagement.cs",
+              "RelativeDocumentMoniker": "Forms\\CustomerManagement.cs",
+              "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Forms\\CustomerManagement.cs [Design]",
+              "RelativeToolTip": "Forms\\CustomerManagement.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T17:32:10.329Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "UserManagement.cs",
-              "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Forms\\UserManagement.cs",
-              "RelativeDocumentMoniker": "Forms\\UserManagement.cs",
-              "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Forms\\UserManagement.cs",
-              "RelativeToolTip": "Forms\\UserManagement.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAMwBUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T05:04:36.893Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ClearkDashboard.cs",
-              "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Forms\\ClearkDashboard.cs",
-              "RelativeDocumentMoniker": "Forms\\ClearkDashboard.cs",
-              "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Forms\\ClearkDashboard.cs",
-              "RelativeToolTip": "Forms\\ClearkDashboard.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T05:03:32.865Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Data\\repository\\UserRepository.cs",
-              "RelativeDocumentMoniker": "Data\\repository\\UserRepository.cs",
-              "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Data\\repository\\UserRepository.cs",
-              "RelativeToolTip": "Data\\repository\\UserRepository.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAiwBgAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T19:17:12.721Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAAwC8AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T15:20:00.794Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Login.cs [Design]",
-              "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Forms\\Login.cs",
-              "RelativeDocumentMoniker": "Forms\\Login.cs",
-              "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Forms\\Login.cs [Design]",
-              "RelativeToolTip": "Forms\\Login.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T19:11:42.724Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Data\\entity\\Customer.cs",
-              "RelativeDocumentMoniker": "Data\\entity\\Customer.cs",
-              "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Data\\entity\\Customer.cs",
-              "RelativeToolTip": "Data\\entity\\Customer.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAA3wBsAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T04:16:44.792Z",
+              "WhenOpened": "2025-03-16T19:06:09.726Z",
               "EditorCaption": ""
             },
             {
@@ -418,72 +292,135 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "AdminDashboard.cs",
+              "DocumentIndex": 10,
+              "Title": "IBookRepository.cs",
+              "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Data\\repository\\IBookRepository.cs",
+              "RelativeDocumentMoniker": "Data\\repository\\IBookRepository.cs",
+              "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Data\\repository\\IBookRepository.cs",
+              "RelativeToolTip": "Data\\repository\\IBookRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T19:08:56.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Data\\repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Data\\repository\\UserRepository.cs",
+              "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Data\\repository\\UserRepository.cs",
+              "RelativeToolTip": "Data\\repository\\UserRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T17:03:32.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BookRepository.cs",
+              "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Data\\repository\\BookRepository.cs",
+              "RelativeDocumentMoniker": "Data\\repository\\BookRepository.cs",
+              "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Data\\repository\\BookRepository.cs",
+              "RelativeToolTip": "Data\\repository\\BookRepository.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAqwCEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T19:09:04.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SalesReport.cs [Design]",
+              "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Forms\\SalesReport.cs",
+              "RelativeDocumentMoniker": "Forms\\SalesReport.cs",
+              "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Forms\\SalesReport.cs [Design]",
+              "RelativeToolTip": "Forms\\SalesReport.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T17:09:10.164Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Data\\repository\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Data\\repository\\IUserRepository.cs",
+              "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Data\\repository\\IUserRepository.cs",
+              "RelativeToolTip": "Data\\repository\\IUserRepository.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAiwA0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T17:02:51.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AdminDashboard.cs [Design]",
               "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Forms\\AdminDashboard.cs",
               "RelativeDocumentMoniker": "Forms\\AdminDashboard.cs",
-              "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Forms\\AdminDashboard.cs",
-              "RelativeToolTip": "Forms\\AdminDashboard.cs",
-              "ViewState": "AgIAAGIAAAAAAAAAAAAhwG0AAAAAAAAAAAAAAA==",
+              "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Forms\\AdminDashboard.cs [Design]",
+              "RelativeToolTip": "Forms\\AdminDashboard.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T04:55:37.819Z",
+              "WhenOpened": "2025-03-13T15:41:47.313Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Data\\repository\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "Data\\repository\\OrderRepository.cs",
+              "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Data\\repository\\OrderRepository.cs",
+              "RelativeToolTip": "Data\\repository\\OrderRepository.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAAAEgAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T17:33:32.969Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "OrderDetail.cs",
-              "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Data\\entity\\OrderDetail.cs",
-              "RelativeDocumentMoniker": "Data\\entity\\OrderDetail.cs",
-              "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Data\\entity\\OrderDetail.cs",
-              "RelativeToolTip": "Data\\entity\\OrderDetail.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBoAAAAgAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "SalesReport.cs",
+              "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Forms\\SalesReport.cs",
+              "RelativeDocumentMoniker": "Forms\\SalesReport.cs",
+              "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Forms\\SalesReport.cs",
+              "RelativeToolTip": "Forms\\SalesReport.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAmwB0AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T04:10:27.114Z",
+              "WhenOpened": "2025-03-16T17:19:34.939Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "StockOrder.cs",
-              "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Data\\entity\\StockOrder.cs",
-              "RelativeDocumentMoniker": "Data\\entity\\StockOrder.cs",
-              "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Data\\entity\\StockOrder.cs",
-              "RelativeToolTip": "Data\\entity\\StockOrder.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAgwB4AAAAeAAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Business\\services\\OrderService.cs",
+              "RelativeDocumentMoniker": "Business\\services\\OrderService.cs",
+              "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Business\\services\\OrderService.cs",
+              "RelativeToolTip": "Business\\services\\OrderService.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAD4v1cAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T04:10:25.004Z",
+              "WhenOpened": "2025-03-16T17:45:56.355Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "User.cs",
-              "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Data\\entity\\User.cs",
-              "RelativeDocumentMoniker": "Data\\entity\\User.cs",
-              "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Data\\entity\\User.cs",
-              "RelativeToolTip": "Data\\entity\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "DocumentIndex": 20,
+              "Title": "CustomerPos.cs",
+              "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Forms\\CustomerPos.cs",
+              "RelativeDocumentMoniker": "Forms\\CustomerPos.cs",
+              "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Forms\\CustomerPos.cs",
+              "RelativeToolTip": "Forms\\CustomerPos.cs",
+              "ViewState": "AgIAAAQBAAAAAAAAAAAAAAsBAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T19:15:24.487Z",
+              "WhenOpened": "2025-03-14T04:58:00.004Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Supplier.cs",
-              "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Data\\entity\\Supplier.cs",
-              "RelativeDocumentMoniker": "Data\\entity\\Supplier.cs",
-              "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Data\\entity\\Supplier.cs",
-              "RelativeToolTip": "Data\\entity\\Supplier.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T04:09:30.816Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 18,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
@@ -496,59 +433,209 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Order.cs",
+              "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Data\\entity\\Order.cs",
+              "RelativeDocumentMoniker": "Data\\entity\\Order.cs",
+              "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Data\\entity\\Order.cs",
+              "RelativeToolTip": "Data\\entity\\Order.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAqwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T18:01:19.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CustomerPos.cs [Design]",
+              "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Forms\\CustomerPos.cs",
+              "RelativeDocumentMoniker": "Forms\\CustomerPos.cs",
+              "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Forms\\CustomerPos.cs [Design]",
+              "RelativeToolTip": "Forms\\CustomerPos.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T21:02:06.571Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "PlaceStockOrder.cs [Design]",
+              "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Forms\\PlaceStockOrder.cs",
+              "RelativeDocumentMoniker": "Forms\\PlaceStockOrder.cs",
+              "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Forms\\PlaceStockOrder.cs [Design]",
+              "RelativeToolTip": "Forms\\PlaceStockOrder.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T22:08:43.038Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AdminDashboard.cs",
+              "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Forms\\AdminDashboard.cs",
+              "RelativeDocumentMoniker": "Forms\\AdminDashboard.cs",
+              "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Forms\\AdminDashboard.cs",
+              "RelativeToolTip": "Forms\\AdminDashboard.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAAIAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T04:55:37.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Data\\repository\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "Data\\repository\\IOrderRepository.cs",
+              "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Data\\repository\\IOrderRepository.cs",
+              "RelativeToolTip": "Data\\repository\\IOrderRepository.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwBkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T17:35:02.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ReceiptGenerator.cs",
+              "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Common\\ReceiptGenerator.cs",
+              "RelativeDocumentMoniker": "Common\\ReceiptGenerator.cs",
+              "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Common\\ReceiptGenerator.cs",
+              "RelativeToolTip": "Common\\ReceiptGenerator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T20:02:14.745Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 26,
-              "Title": "Login.cs",
-              "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Forms\\Login.cs",
-              "RelativeDocumentMoniker": "Forms\\Login.cs",
-              "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Forms\\Login.cs",
-              "RelativeToolTip": "Forms\\Login.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAuwAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T19:11:47.145Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "CustomerManagement.cs",
-              "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Forms\\CustomerManagement.cs",
-              "RelativeDocumentMoniker": "Forms\\CustomerManagement.cs",
-              "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Forms\\CustomerManagement.cs",
-              "RelativeToolTip": "Forms\\CustomerManagement.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAAAFEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T04:58:53.442Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "BookManagement.cs",
-              "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Forms\\BookManagement.cs",
-              "RelativeDocumentMoniker": "Forms\\BookManagement.cs",
-              "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Forms\\BookManagement.cs",
-              "RelativeToolTip": "Forms\\BookManagement.cs",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAAwG8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T18:49:38.361Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
               "Title": "StockOrderManagement.cs",
               "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Forms\\StockOrderManagement.cs",
               "RelativeDocumentMoniker": "Forms\\StockOrderManagement.cs",
               "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Forms\\StockOrderManagement.cs",
               "RelativeToolTip": "Forms\\StockOrderManagement.cs",
-              "ViewState": "AgIAAI0AAAAAAAAAAAAuwJcAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAiwF8AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T18:30:21.247Z",
+              "WhenOpened": "2025-03-15T19:10:15.31Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "OrderDetailView.cs [Design]",
+              "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Forms\\OrderDetailView.cs",
+              "RelativeDocumentMoniker": "Forms\\OrderDetailView.cs",
+              "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Forms\\OrderDetailView.cs [Design]",
+              "RelativeToolTip": "Forms\\OrderDetailView.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T18:49:19.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "SupplierManagement.cs [Design]",
+              "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Forms\\SupplierManagement.cs",
+              "RelativeDocumentMoniker": "Forms\\SupplierManagement.cs",
+              "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Forms\\SupplierManagement.cs [Design]",
+              "RelativeToolTip": "Forms\\SupplierManagement.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T18:13:17.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Data\\entity\\User.cs",
+              "RelativeDocumentMoniker": "Data\\entity\\User.cs",
+              "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Data\\entity\\User.cs",
+              "RelativeToolTip": "Data\\entity\\User.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T16:33:03.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "20250315165643_init.cs",
+              "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Migrations\\20250315165643_init.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250315165643_init.cs",
+              "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Migrations\\20250315165643_init.cs",
+              "RelativeToolTip": "Migrations\\20250315165643_init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T16:56:43.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "20250315165624_InitialCreate.cs",
+              "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Migrations\\20250315165624_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250315165624_InitialCreate.cs",
+              "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Migrations\\20250315165624_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20250315165624_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T16:56:25.042Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 30,
+              "Title": "20250315163842_init.cs",
+              "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Migrations\\20250315163842_init.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250315163842_init.cs",
+              "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Migrations\\20250315163842_init.cs",
+              "RelativeToolTip": "Migrations\\20250315163842_init.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T16:38:43.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Forms\\Login.cs",
+              "RelativeDocumentMoniker": "Forms\\Login.cs",
+              "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Forms\\Login.cs [Design]",
+              "RelativeToolTip": "Forms\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T19:11:42.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "StockOrderManagement.cs [Design]",
+              "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Forms\\StockOrderManagement.cs",
+              "RelativeDocumentMoniker": "Forms\\StockOrderManagement.cs",
+              "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Forms\\StockOrderManagement.cs [Design]",
+              "RelativeToolTip": "Forms\\StockOrderManagement.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T15:21:18.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "StockOrder.cs",
+              "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Data\\entity\\StockOrder.cs",
+              "RelativeDocumentMoniker": "Data\\entity\\StockOrder.cs",
+              "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Data\\entity\\StockOrder.cs",
+              "RelativeToolTip": "Data\\entity\\StockOrder.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwB4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T04:10:25.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Supplier.cs",
+              "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Data\\entity\\Supplier.cs",
+              "RelativeDocumentMoniker": "Data\\entity\\Supplier.cs",
+              "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Data\\entity\\Supplier.cs",
+              "RelativeToolTip": "Data\\entity\\Supplier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T04:09:30.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
               "Title": "OrderDetailView.cs",
               "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Forms\\OrderDetailView.cs",
               "RelativeDocumentMoniker": "Forms\\OrderDetailView.cs",
@@ -556,86 +643,19 @@
               "RelativeToolTip": "Forms\\OrderDetailView.cs",
               "ViewState": "AgIAADMAAAAAAAAAAAAYwEEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T20:25:19.06Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-13T20:25:19.06Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "PlaceStockOrder.Designer.cs",
-              "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Forms\\PlaceStockOrder.Designer.cs",
-              "RelativeDocumentMoniker": "Forms\\PlaceStockOrder.Designer.cs",
-              "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Forms\\PlaceStockOrder.Designer.cs",
-              "RelativeToolTip": "Forms\\PlaceStockOrder.Designer.cs",
-              "ViewState": "AgIAACUBAAAAAAAAAAAhwC8BAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T03:37:17.249Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 36,
               "Title": "StockOrderRepository.cs",
               "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Data\\repository\\StockOrderRepository.cs",
               "RelativeDocumentMoniker": "Data\\repository\\StockOrderRepository.cs",
               "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Data\\repository\\StockOrderRepository.cs",
               "RelativeToolTip": "Data\\repository\\StockOrderRepository.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAAACQAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAIBJwCQAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T15:18:27.969Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "OrderDetailRepository.cs",
-              "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Data\\repository\\OrderDetailRepository.cs",
-              "RelativeDocumentMoniker": "Data\\repository\\OrderDetailRepository.cs",
-              "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Data\\repository\\OrderDetailRepository.cs",
-              "RelativeToolTip": "Data\\repository\\OrderDetailRepository.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAwwCsAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T20:14:06.064Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "IBookRepository.cs",
-              "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Data\\repository\\IBookRepository.cs",
-              "RelativeDocumentMoniker": "Data\\repository\\IBookRepository.cs",
-              "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Data\\repository\\IBookRepository.cs",
-              "RelativeToolTip": "Data\\repository\\IBookRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T20:11:28.016Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "20250313173212_uid_s_order.cs",
-              "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Migrations\\20250313173212_uid_s_order.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250313173212_uid_s_order.cs",
-              "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Migrations\\20250313173212_uid_s_order.cs",
-              "RelativeToolTip": "Migrations\\20250313173212_uid_s_order.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAADwvxEAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T18:43:36.74Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "SupplierManagement.cs",
-              "DocumentMoniker": "E:\\ESO\\practicles\\BookHaven\\Forms\\SupplierManagement.cs",
-              "RelativeDocumentMoniker": "Forms\\SupplierManagement.cs",
-              "ToolTip": "E:\\ESO\\practicles\\BookHaven\\Forms\\SupplierManagement.cs",
-              "RelativeToolTip": "Forms\\SupplierManagement.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwBAAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T14:47:50.719Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-13T15:18:27.969Z"
             }
           ]
         }

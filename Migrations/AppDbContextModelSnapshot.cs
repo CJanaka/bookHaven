@@ -129,10 +129,6 @@ namespace BookHaven.Migrations
                         .HasColumnType("decimal(65,30)")
                         .HasColumnName("discount");
 
-                    b.Property<int>("ModifiedBy")
-                        .HasColumnType("int")
-                        .HasColumnName("modified_by");
-
                     b.Property<DateTime>("ModifiedDate")
                         .HasColumnType("datetime(6)")
                         .HasColumnName("modified_date");
@@ -281,29 +277,29 @@ namespace BookHaven.Migrations
 
             modelBuilder.Entity("BookHaven.Data.entity.User", b =>
                 {
-                    b.Property<int>("id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasColumnName("id");
 
-                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("id"));
+                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("passwordHash")
+                    b.Property<string>("PasswordHash")
                         .IsRequired()
                         .HasColumnType("longtext")
                         .HasColumnName("password_hash");
 
-                    b.Property<string>("role")
+                    b.Property<string>("Role")
                         .IsRequired()
                         .HasColumnType("longtext")
                         .HasColumnName("role");
 
-                    b.Property<string>("userName")
+                    b.Property<string>("UserName")
                         .IsRequired()
                         .HasColumnType("longtext")
                         .HasColumnName("user_name");
 
-                    b.HasKey("id");
+                    b.HasKey("Id");
 
                     b.ToTable("Users");
                 });

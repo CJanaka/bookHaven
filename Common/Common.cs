@@ -8,6 +8,8 @@ namespace BookHaven.Common
 {
     public static class Common
     {
+        public static readonly string admin = "admin";
+        public static readonly string cleark = "admin";
         public static void goBack(Form currentForm, Form nextForm) {
             if (currentForm != null)
             {

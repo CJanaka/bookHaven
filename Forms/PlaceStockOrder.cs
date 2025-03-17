@@ -7,6 +7,7 @@ using BookHaven.Data.entity;
 using BookHaven.Data.repository;
 using BookHaven.Data;
 using System.Diagnostics;
+using RepoDb.Extensions;
 
 namespace BookHaven.Forms
 {
@@ -23,7 +24,7 @@ namespace BookHaven.Forms
         private bool _isCustomerOrder;
 
         public PlaceStockOrder(StockOrderService stockOrderService, BookService bookService, OrderService orderService,
-                               string uniqueId, Form parentForm, bool isCustomerOrder)
+                               int orderId, Form parentForm, bool isCustomerOrder)
         {
             InitializeComponent();
             this.FormBorderStyle = FormBorderStyle.None;
@@ -33,11 +34,12 @@ namespace BookHaven.Forms
             _supplierService = new SupplierService(new SupplierRepository(new AppDbContext()));
             _orderDetailRepository = new OrderDetailRepository(new AppDbContext());
 
-            _uniqueId = uniqueId;
+            //_uniqueId = uniqueId;
             _parentForm = parentForm;
             _isCustomerOrder = isCustomerOrder;
 
             _orderId = GetOrderRecord();
+            _orderId = orderId;
             LoadBooks();
             LoadOrderItems();
         }
@@ -72,6 +74,7 @@ namespace BookHaven.Forms
                 o.OrderId,
                 o.TotalPrice,
                 o.Quantity,
+                o.UnitPrice,
                 o.BookId,
                 o.Book.Title,
                 o.Book.Genre,
@@ -97,6 +100,18 @@ namespace BookHaven.Forms
 
         private void addBtn_Click(object sender, EventArgs e)
         {
+      
+            if (bookId.Text.IsNullOrEmpty()) { 
+                MessageBox.Show("Please select books to add!");
+                return;
+            }
+
+            if (quantity.Text.IsNullOrEmpty())
+            {
+                MessageBox.Show("Please add quantity!");
+                return;
+            }
+
             int bokId = Convert.ToInt32(bookId.Text);
             var book = _bookService.GetBookById(bokId);
 
@@ -118,6 +133,7 @@ namespace BookHaven.Forms
 
             if (_isCustomerOrder)
             {
+                orderItem.UnitPrice = Convert.ToDecimal(price.Text);
                 orderItem.OrderId = _orderId;
                 orderItem.TotalPrice = Convert.ToDecimal(price.Text) * orderItem.Quantity;
             }
@@ -127,29 +143,36 @@ namespace BookHaven.Forms
             }
 
             //check inventory an update
-            checkAndModifyInventory(selectedQts, avilableQtz, book, true);
+            checkAndDeductInventory(selectedQts, avilableQtz, book, true);
 
             _orderService.addOrderDetail(orderItem);
-            MessageBox.Show("Order item added successfully!");
 
+            //-_orderService.updateOrder();
+            MessageBox.Show("Order item added successfully!");
+            LoadBooks();
             LoadOrderItems();
-            RefreshParentForm();
             clearFields();
         }
 
-        void checkAndModifyInventory(int selectedQtz, int savilableQtz, Book book, bool isAdd) {
+        void checkAndModifyInventory(int additinoalQtz, int avilableQtz, Book book, bool isAdd) {
 
-            int restStck = savilableQtz - selectedQtz;
-            book.StockQuantity = restStck;
-            _bookService.AddBook(book);
+            int restStock = avilableQtz + additinoalQtz;
+            book.StockQuantity = restStock;
+            _bookService.UpdateBook(book);
+        }
+        
+        void checkAndDeductInventory(int selectedQtz, int avilableQtz, Book book, bool isAdd) {
+            int restStock = avilableQtz - selectedQtz;
+            book.StockQuantity = restStock;
+            _bookService.UpdateBook(book);
         }
 
         private void updateBtn_Click(object sender, EventArgs e)
         {
 
-            if (!string.IsNullOrWhiteSpace(bookId.Text))
+            if (string.IsNullOrWhiteSpace(bookId.Text))
             { 
-                MessageBox.Show("please select arecord to update!");
+                MessageBox.Show("please select a record to update!");
                 return;
             }
 
@@ -174,17 +197,23 @@ namespace BookHaven.Forms
                 int selectedQtz = Convert.ToInt32(quantity.Text);
                 orderDetail.BookId = Convert.ToInt32(bookId.Text);
 
-                if (selectedQtz > currentQtzOfOrder) {
-                    currentQtzOfOrder -= selectedQtz;
+                if (selectedQtz > currentQtzOfOrder)
+                {
+                    checkAndDeductInventory(currentQtzOfOrder, avilableQtz, book, true);
+                }
+                else { 
                     checkAndModifyInventory(currentQtzOfOrder, avilableQtz, book, true);
                 }
 
-                orderDetail.Quantity = currentQtzOfOrder;
-                _orderDetailRepository.Update(orderDetail);
+                decimal newTotal = orderDetail.UnitPrice * selectedQtz;
+                orderDetail.Quantity = selectedQtz;
+                orderDetail.TotalPrice = newTotal;
+                _orderService.updateOrderDetail(orderDetail);
                 MessageBox.Show("Order updated successfully.");
 
                 //RefreshParentForm();
                 LoadOrderItems();
+                LoadBooks();
                 clearFields();
             }
             else
@@ -210,6 +239,7 @@ namespace BookHaven.Forms
 
                 bookId.Text = row.Cells["BookId"].Value.ToString();
                 total.Text = row.Cells["TotalPrice"].Value.ToString();
+                price.Text = row.Cells["UnitPrice"].Value.ToString();
                 orderDetailId.Text = row.Cells["Id"].Value.ToString();
                 quantity.Text = row.Cells["Quantity"].Value.ToString();
             }
@@ -228,7 +258,7 @@ namespace BookHaven.Forms
             }
             else if (_parentForm is CustomerPos customerPos)
             {
-                customerPos.LoadStockOrders(_uniqueId);
+                customerPos.LoadOrders(_orderId);
             }
         }
 
@@ -272,7 +302,10 @@ namespace BookHaven.Forms
 
         private void deleteBtn_Click(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            _orderService.deleteOrderDetail(Convert.ToInt32(orderDetailId.Text));
+            LoadOrderItems();
+            clearFields();
+            MessageBox.Show("Item removed success!");
         }
 
         private void clrBtn_Click(object sender, EventArgs e)

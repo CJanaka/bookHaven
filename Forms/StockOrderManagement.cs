@@ -82,18 +82,18 @@ namespace BookHaven.Forms
                 //MessageBox.Show("Add book");
             }
 
-            loadStockOrderItemForm(stockOrderUid[0]);
+            //loadStockOrderItemForm(stockOrderUid[0]);
             ClearFields();
             LoadStockOrders();
         }
 
-        void loadStockOrderItemForm(String uid)
+        void loadStockOrderItemForm(int orderId)
         {
             var placeStockOrderForm = new PlaceStockOrder(
                 new StockOrderService(new StockOrderRepository(new AppDbContext())),
                 new BookService(new BookRepository(new AppDbContext())),
                 new OrderService(new OrderRepository(new AppDbContext()), new OrderDetailRepository(new AppDbContext())),
-                uid,
+                orderId,
                 this,
                 false  // Not a customer order
             );
@@ -152,7 +152,8 @@ namespace BookHaven.Forms
             DataGridViewRow row = stockOrdersGridView.Rows[e.RowIndex];
 
             String uid = row.Cells["UniqueId"].Value.ToString();
-            loadStockOrderItemForm(uid);
+            //get order from uid and pass orderId bellow
+            //loadStockOrderItemForm(uid);
         }
 
         private void backBtn_Click(object sender, EventArgs e)

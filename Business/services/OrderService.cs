@@ -19,14 +19,29 @@ namespace BookHaven.Business.services
             _orderDetailRepository = orderDetailRepository;
         }
 
-        public void PlaceOrder(Order order)
+        public Order PlaceOrder(Order order)
         {
-            _orderRepository.AddOrder(order);
+            return _orderRepository.AddOrder(order);
         }        
 
         public void addOrderDetail(OrderDetail orderDetail)
         {
             _orderDetailRepository.Add(orderDetail);
+        }
+
+        public void updateOrderDetail(OrderDetail orderDetail)
+        {
+            _orderDetailRepository.Update(orderDetail);
+        }
+        
+        public void deleteOrderDetail(int orderDetailId)
+        {
+            _orderDetailRepository.Delete(orderDetailId);
+        }
+
+        public void updateOrder(Order order)
+        {
+            _orderRepository.UpdateOrder(order);
         }
 
         public List<OrderDetail> GetOrderDetailByOrderId(int id)
@@ -66,6 +81,11 @@ namespace BookHaven.Business.services
         }
 
         public Order GetByUid(String id) => _orderRepository.GetByUid(id);
+        public Order GetById(int id) => _orderRepository.GetOrderById(id);
 
+        public List<Order> GetOrdersByDateRange(DateTime startDate, DateTime endDate)
+        {
+            return _orderRepository.GetByDateRange(startDate, endDate);
+        }
     }
 }

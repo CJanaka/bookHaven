@@ -46,7 +46,6 @@
             clrBtn = new Button();
             search = new TextBox();
             searchBtn = new Button();
-            deleteBtn = new Button();
             updateBtn = new Button();
             addBtn = new Button();
             customersGridView = new DataGridView();
@@ -180,7 +179,7 @@
             // 
             // clrBtn
             // 
-            clrBtn.Location = new Point(403, 296);
+            clrBtn.Location = new Point(291, 296);
             clrBtn.Name = "clrBtn";
             clrBtn.Size = new Size(83, 34);
             clrBtn.TabIndex = 42;
@@ -204,16 +203,6 @@
             searchBtn.Text = "Search";
             searchBtn.UseVisualStyleBackColor = true;
             searchBtn.Click += searchBtn_Click;
-            // 
-            // deleteBtn
-            // 
-            deleteBtn.Location = new Point(284, 296);
-            deleteBtn.Name = "deleteBtn";
-            deleteBtn.Size = new Size(83, 34);
-            deleteBtn.TabIndex = 39;
-            deleteBtn.Text = "Remove";
-            deleteBtn.UseVisualStyleBackColor = true;
-            deleteBtn.Click += deleteBtn_Click;
             // 
             // updateBtn
             // 
@@ -264,7 +253,6 @@
             Controls.Add(clrBtn);
             Controls.Add(search);
             Controls.Add(searchBtn);
-            Controls.Add(deleteBtn);
             Controls.Add(updateBtn);
             Controls.Add(addBtn);
             Controls.Add(customersGridView);
@@ -310,7 +298,6 @@
         private Button clrBtn;
         private TextBox search;
         private Button searchBtn;
-        private Button deleteBtn;
         private Button updateBtn;
         private Button addBtn;
         private DataGridView customersGridView;

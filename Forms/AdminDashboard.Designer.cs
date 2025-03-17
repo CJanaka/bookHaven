@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             bookMngBtn = new Button();
-            button1 = new Button();
-            button2 = new Button();
+            cusManageBtn = new Button();
+            orderManageBtn = new Button();
             supplierBtn = new Button();
-            button3 = new Button();
-            button4 = new Button();
+            stockOrderBtn = new Button();
+            posBtn = new Button();
             reportBtn = new Button();
             userManageBtn = new Button();
             logOutBtn = new Button();
@@ -50,25 +50,25 @@
             bookMngBtn.UseVisualStyleBackColor = true;
             bookMngBtn.Click += bookMngBtn_Click;
             // 
-            // button1
+            // cusManageBtn
             // 
-            button1.Location = new Point(345, 117);
-            button1.Name = "button1";
-            button1.Size = new Size(126, 65);
-            button1.TabIndex = 1;
-            button1.Text = "Customer Management";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            cusManageBtn.Location = new Point(345, 117);
+            cusManageBtn.Name = "cusManageBtn";
+            cusManageBtn.Size = new Size(126, 65);
+            cusManageBtn.TabIndex = 1;
+            cusManageBtn.Text = "Customer Management";
+            cusManageBtn.UseVisualStyleBackColor = true;
+            cusManageBtn.Click += button1_Click;
             // 
-            // button2
+            // orderManageBtn
             // 
-            button2.Location = new Point(532, 117);
-            button2.Name = "button2";
-            button2.Size = new Size(126, 65);
-            button2.TabIndex = 2;
-            button2.Text = "Order Management";
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
+            orderManageBtn.Location = new Point(532, 117);
+            orderManageBtn.Name = "orderManageBtn";
+            orderManageBtn.Size = new Size(126, 65);
+            orderManageBtn.TabIndex = 2;
+            orderManageBtn.Text = "Order Management";
+            orderManageBtn.UseVisualStyleBackColor = true;
+            orderManageBtn.Click += button2_Click;
             // 
             // supplierBtn
             // 
@@ -80,25 +80,25 @@
             supplierBtn.UseVisualStyleBackColor = true;
             supplierBtn.Click += supplierBtn_Click;
             // 
-            // button3
+            // stockOrderBtn
             // 
-            button3.Location = new Point(345, 239);
-            button3.Name = "button3";
-            button3.Size = new Size(126, 65);
-            button3.TabIndex = 4;
-            button3.Text = "Stock Order Management";
-            button3.UseVisualStyleBackColor = true;
-            button3.Click += button3_Click;
+            stockOrderBtn.Location = new Point(345, 239);
+            stockOrderBtn.Name = "stockOrderBtn";
+            stockOrderBtn.Size = new Size(126, 65);
+            stockOrderBtn.TabIndex = 4;
+            stockOrderBtn.Text = "Stock Order Management";
+            stockOrderBtn.UseVisualStyleBackColor = true;
+            stockOrderBtn.Click += button3_Click;
             // 
-            // button4
+            // posBtn
             // 
-            button4.Location = new Point(532, 239);
-            button4.Name = "button4";
-            button4.Size = new Size(126, 65);
-            button4.TabIndex = 5;
-            button4.Text = "Customer POS";
-            button4.UseVisualStyleBackColor = true;
-            button4.Click += button4_Click;
+            posBtn.Location = new Point(532, 239);
+            posBtn.Name = "posBtn";
+            posBtn.Size = new Size(126, 65);
+            posBtn.TabIndex = 5;
+            posBtn.Text = "Customer POS";
+            posBtn.UseVisualStyleBackColor = true;
+            posBtn.Click += button4_Click;
             // 
             // reportBtn
             // 
@@ -149,11 +149,11 @@
             Controls.Add(logOutBtn);
             Controls.Add(userManageBtn);
             Controls.Add(reportBtn);
-            Controls.Add(button4);
-            Controls.Add(button3);
+            Controls.Add(posBtn);
+            Controls.Add(stockOrderBtn);
             Controls.Add(supplierBtn);
-            Controls.Add(button2);
-            Controls.Add(button1);
+            Controls.Add(orderManageBtn);
+            Controls.Add(cusManageBtn);
             Controls.Add(bookMngBtn);
             Name = "AdminDashboard";
             Text = "AdminDashboard";
@@ -164,11 +164,11 @@
         #endregion
 
         private Button bookMngBtn;
-        private Button button1;
-        private Button button2;
+        private Button cusManageBtn;
+        private Button orderManageBtn;
         private Button supplierBtn;
-        private Button button3;
-        private Button button4;
+        private Button stockOrderBtn;
+        private Button posBtn;
         private Button reportBtn;
         private Button userManageBtn;
         private Button logOutBtn;

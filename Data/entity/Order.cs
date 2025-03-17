@@ -20,7 +20,7 @@ namespace BookHaven.Data.entity
 
         public string Status { get; set; }  // Enum or string (e.g., "InStoreCompleted", "ToDeliver", etc.)
 
-        public int ModifiedBy { get; set; }
+        public int UserId { get; set; }
 
         [ForeignKey("UserId")]
         public User ModifiedUser { get; set; }  // Many-to-One relation with User

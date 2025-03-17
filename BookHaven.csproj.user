@@ -7,9 +7,6 @@
     <Compile Update="Forms\BookManagement.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Forms\ClearkDashboard.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="Forms\CustomerManagement.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -26,6 +23,9 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Forms\PlaceStockOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\SalesReport.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Forms\StockOrderManagement.cs">

@@ -49,7 +49,7 @@ namespace BookHaven.Forms
                 o.CreatedDate,
                 o.ModifiedDate,
                 o.Status,
-                o.ModifiedBy,
+                o.UserId,
                 o.Discount,
                 o.TotalAmount,
                 o.NetAmount
@@ -84,7 +84,7 @@ namespace BookHaven.Forms
                 o.CreatedDate,
                 o.ModifiedDate,
                 o.Status,
-                o.ModifiedBy,
+                o.UserId,
                 o.Discount,
                 o.TotalAmount,
                 o.NetAmount
@@ -110,7 +110,7 @@ namespace BookHaven.Forms
                 o.CreatedDate,
                 o.ModifiedDate,
                 o.Status,
-                o.ModifiedBy,
+                o.ModifiedUser,
                 o.Discount,
                 o.TotalAmount,
                 o.NetAmount

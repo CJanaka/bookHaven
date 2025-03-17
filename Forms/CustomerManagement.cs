@@ -111,7 +111,7 @@ namespace BookHaven.Forms
         {
             if (id.Text != null)
             {
-                int cusId = int.Parse(id.Text);
+                int cusId = Convert.ToInt32(id.Text);
                 _customerService.DeleteCustomer(cusId);
                 loadCustomers();
                 clearFields();

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Net;
@@ -11,11 +12,12 @@ using System.Windows.Forms;
 using System.Xml;
 using System.Xml.Linq;
 using BookHaven.Business.services;
+using BookHaven.Common;
 using BookHaven.Data;
 using BookHaven.Data.entity;
 using BookHaven.Data.repository;
-using BookHaven.Migrations;
 using Microsoft.VisualBasic.Devices;
+using RepoDb.Extensions;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace BookHaven.Forms
@@ -26,19 +28,19 @@ namespace BookHaven.Forms
         private readonly OrderService _orderService;
         private readonly CustomerService _customerService;
         public decimal _totalPrice;
+        public int _orderId;
         public String[] stockOrderUid;
 
         public CustomerPos(BookService bookService, CustomerService customerService)
         {
+            _orderId = 0;
             _bookService = bookService;
             _orderService = new OrderService(new OrderRepository(new AppDbContext()),
                 new OrderDetailRepository(new AppDbContext()));
             InitializeComponent();
             stockOrderUid = new String[1];
             _customerService = customerService;
-            //bookBox.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
-            //bookBox.AutoCompleteSource = AutoCompleteSource.ListItems;
-            //bookBox.DropDownStyle = ComboBoxStyle.DropDown;
+            LoadStatus();
         }
 
         private void searchBtn_Click(object sender, EventArgs e)
@@ -57,20 +59,6 @@ namespace BookHaven.Forms
             }).ToList();
         }
 
-        //private void comboBox1_TextChanged(object sender, EventArgs e)
-        //{
-        //    string filter = bookBox.Text.ToLower();
-        //    var filteredSuppliers = _bookService.SearchBooks(filter);
-
-        //    bookBox.DataSource = null;
-        //    bookBox.DataSource = filteredSuppliers;
-        //    bookBox.DisplayMember = "Title"; // Adjust according to your book entity
-        //    bookBox.ValueMember = "Id";
-
-        //    bookBox.DroppedDown = true; // Keep dropdown open while typing
-        //    Cursor.Current = Cursors.Default;
-        //}
-
         private void label3_Click(object sender, EventArgs e)
         {
 
@@ -78,58 +66,50 @@ namespace BookHaven.Forms
 
         private void addCusBtn_Click(object sender, EventArgs e)
         {
+            //this.Hide();
 
+            var customerManagement = new CustomerManagement(
+                new CustomerService(
+                    new CustomerRepository(
+                        new AppDbContext())));
+
+            customerManagement.Show();
         }
 
         private void addViewBtn_Click(object sender, EventArgs e)
         {
-            if (stockOrderUid.Length > 0)
+
+            if (cusId.Text.IsNullOrEmpty())
+            {
+                MessageBox.Show("Please select a customer befor place orde.");
+                return;
+            }
+
+            if (_orderId == 0)
             {
 
                 string uniqueId = Guid.NewGuid().ToString();
                 var order = new Order();
-
-                if (statusBox.Text == null || statusBox.Text.Equals(""))
-                {
-                    order.Status = "InStoreCompleted";
-                }
-                else { 
-                    order.Status = statusBox.Text;
-                }
-
-                order.CreatedDate = DateTime.Now;
-                order.ModifiedDate = DateTime.Now;
-                order.CustomerId = int.Parse(cusId.Text);
-                order.UniqueId = uniqueId;
-                decimal.TryParse(total.Text, out decimal tot);
-                order.TotalAmount = tot;
-
-
-                if (discount.Text != null)
-                {
-                    decimal.TryParse(discount.Text, out decimal disc);
-                    order.Discount = disc;
-                    order.NetAmount = tot - disc;
-                }
-                else {
-                    order.NetAmount = tot;
-                }
-
                 stockOrderUid[0] = uniqueId;
-                _orderService.PlaceOrder(order);
+                order.UniqueId = uniqueId;
+                order.Status = statusBox.Text;
+                order.UserId = SessionManager.CurrentUserId;
+                order.CustomerId = Convert.ToInt32(cusId.Text);
+                order = _orderService.PlaceOrder(order);
+                _orderId = order.Id;
 
             }
 
-            loadStockOrderItemForm(stockOrderUid[0]);
+            loadStockOrderItemForm(_orderId);
         }
 
-        void loadStockOrderItemForm(String uid)
+        void loadStockOrderItemForm(int orderId)
         {
             var placeStockOrderForm = new PlaceStockOrder(
                 new StockOrderService(new StockOrderRepository(new AppDbContext())),
                 new BookService(new BookRepository(new AppDbContext())),
                 new OrderService(new OrderRepository(new AppDbContext()), new OrderDetailRepository(new AppDbContext())),
-                uid,
+                orderId,
                 this,
                 true  // This is a customer order
             );
@@ -141,6 +121,22 @@ namespace BookHaven.Forms
         private void button2_Click(object sender, EventArgs e)
         {
 
+            if (total.Text == null || total.Text.Equals(""))
+            {
+                MessageBox.Show("Please create an order!");
+                return;
+            }
+
+            var order = _orderService.GetById(Convert.ToInt32(orderId.Text));
+            if (order != null)
+            {
+
+                var ordDetail = _orderService.GetOrderDetailByOrderId(Convert.ToInt32(orderId.Text));
+                ReceiptGenerator.GenerateReceipt(order, ordDetail);
+            }
+
+            clearFields();
+
         }
 
         private void cellClick(object sender, DataGridViewCellEventArgs e)
@@ -150,7 +146,6 @@ namespace BookHaven.Forms
                 DataGridViewRow row = cusGridView.Rows[e.RowIndex];
 
                 // Load data from the selected row into the respective fields
-
                 cusId.Text = row.Cells["CustomerId"].Value.ToString();
                 cusName.Text = row.Cells["FirstName"].Value.ToString() + " " + row.Cells["LastName"].Value.ToString();
                 contact.Text = row.Cells["Contact"].Value.ToString();
@@ -158,19 +153,24 @@ namespace BookHaven.Forms
             }
         }
 
-        public void LoadStockOrders(String uniqueId)
+        public void LoadOrders(int ordId)
         {
-
-            if (stockOrderUid.Length > 0)
+            if (ordId != null && !ordId.Equals(""))
             {
-                var order = _orderService.GetByUid(stockOrderUid[0]);
+                var orderDetailList = _orderService.GetOrderDetailByOrderId(ordId);
 
-                if (order != null)
+                if (orderDetailList != null && orderDetailList.Count > 0)
                 {
-                    total.Text = order.TotalAmount.ToString();
-                    int customerId = order.CustomerId;
-                    loadCustomer(customerId);
+
+                    decimal totalOrderAmount = orderDetailList.Sum(od => od.TotalPrice);
+                    total.Text = totalOrderAmount.ToString();
+                    orderId.Text = orderDetailList[0].OrderId.ToString();
+
                 }
+            }
+            else
+            {
+                MessageBox.Show("Order processing failed. Try again!");
             }
 
 
@@ -212,6 +212,110 @@ namespace BookHaven.Forms
             var dashboard = new AdminDashboard();
 
             Common.Common.goBack(this, dashboard);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (stockOrderUid[0] == null || stockOrderUid[0].Equals(""))
+            {
+                MessageBox.Show("Order processing failed. Try again!");
+                return;
+            }
+
+            var order = _orderService.GetByUid(stockOrderUid[0]);
+
+            if (order == null)
+            {
+                MessageBox.Show("Order processing failed. Try again!");
+                return;
+            }
+
+            if (statusBox.Text == null || statusBox.Text.Equals(""))
+            {
+                order.Status = "InStoreCompleted";
+            }
+            else
+            {
+                order.Status = statusBox.Text;
+            }
+
+            order.CreatedDate = DateTime.Now;
+            order.ModifiedDate = DateTime.Now;
+            order.CustomerId = int.Parse(cusId.Text);
+            order.UniqueId = stockOrderUid[0];
+            decimal.TryParse(total.Text, out decimal tot);
+            order.TotalAmount = tot;
+
+
+            if (discount.Text != null && !discount.Text.Trim().Equals(""))
+            {
+                if (decimal.TryParse(discount.Text, out decimal disc))
+                {
+                    order.Discount = disc;
+                    order.NetAmount = tot - disc;
+                }
+                else
+                {
+                    MessageBox.Show("Invalid discount!");
+                };
+            }
+            else
+            {
+                order.NetAmount = tot;
+            }
+
+            var ordDetail = _orderService.GetOrderDetailByOrderId(order.Id);
+            order.OrderDetails = ordDetail;
+            gross.Text = order.NetAmount.ToString();
+            _orderService.updateOrder(order);
+        }
+
+        private void discount_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LoadStatus()
+        {
+
+            // Populate the status combo box
+            statusBox.Items.Add("InStoreCompleted");
+            statusBox.Items.Add("ToDeliver");
+            statusBox.Items.Add("Canceled");
+            statusBox.Items.Add("DeliverCompleted");
+            statusBox.SelectedIndex = 0;
+        }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label12_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        void clearFields()
+        {
+
+            statusBox.SelectedIndex = 0;
+            cusId.Clear();
+            cusName.Clear();
+            email.Clear();
+            contact.Clear();
+            orderId.Clear();
+            total.Clear();
+            discount.Clear();
+            gross.Clear();
+
+            _orderId = 0;
+            stockOrderUid[0] = null;
+        }
+
+        private void clearBtn_Click(object sender, EventArgs e)
+        {
+            clearFields();
         }
     }
 }

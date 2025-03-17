@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using BookHaven.Business.services;
+using BookHaven.Common;
 using BookHaven.Data;
 using BookHaven.Data.repository;
 
@@ -15,9 +16,29 @@ namespace BookHaven.Forms
 {
     public partial class AdminDashboard : Form
     {
+        private readonly string _logedInRole;
         public AdminDashboard()
         {
             InitializeComponent();
+            _logedInRole = SessionManager.CurrentRole;
+
+            if (!string.IsNullOrEmpty(_logedInRole)) {
+
+                if (!Common.Common.admin.Equals(_logedInRole))
+                {
+                    bookMngBtn.Enabled = false;
+                    supplierBtn.Enabled = false;
+                    stockOrderBtn.Enabled = false;
+                    userManageBtn.Enabled = false;
+                    reportBtn.Enabled = false;
+
+                }
+                //else {
+                //    posBtn.Enabled = false;
+                //    orderManageBtn.Enabled = false
+                //    cusManageBtn.Enabled = false;
+                //}
+            }
         }
 
         private void bookMngBtn_Click(object sender, EventArgs e)
@@ -97,17 +118,38 @@ namespace BookHaven.Forms
 
         private void button5_Click(object sender, EventArgs e)
         {
+            //report
 
+            this.Hide();
+
+            var salesReport = new SalesReport(
+                new OrderService(new OrderRepository(new AppDbContext()),
+                new OrderDetailRepository(new AppDbContext())));
+
+            salesReport.Show();
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
+            //system susers
+            this.Hide();
 
+            var customerPos = new UserManagement(
+                new AuthService(new UserRepository(new AppDbContext())));
+
+            customerPos.Show();
         }
 
         private void logOutBtn_Click(object sender, EventArgs e)
         {
+            SessionManager.ClearSession();
 
+            this.Hide();
+
+            var customerPos = new Login(
+                new AuthService(new UserRepository(new AppDbContext())));
+
+            customerPos.Show();
         }
     }
 }

@@ -54,6 +54,10 @@
             button1 = new Button();
             label10 = new Label();
             statusBox = new ComboBox();
+            label11 = new Label();
+            orderId = new TextBox();
+            label12 = new Label();
+            clearBtn = new Button();
             ((System.ComponentModel.ISupportInitialize)cusGridView).BeginInit();
             SuspendLayout();
             // 
@@ -105,7 +109,7 @@
             // 
             // total
             // 
-            total.Location = new Point(579, 456);
+            total.Location = new Point(579, 496);
             total.Name = "total";
             total.Size = new Size(208, 27);
             total.TabIndex = 7;
@@ -113,7 +117,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(471, 456);
+            label3.Location = new Point(471, 496);
             label3.Name = "label3";
             label3.Size = new Size(42, 20);
             label3.TabIndex = 8;
@@ -190,7 +194,7 @@
             // 
             // gross
             // 
-            gross.Location = new Point(579, 603);
+            gross.Location = new Point(579, 655);
             gross.Name = "gross";
             gross.Size = new Size(208, 27);
             gross.TabIndex = 17;
@@ -198,7 +202,7 @@
             // label8
             // 
             label8.AutoSize = true;
-            label8.Location = new Point(471, 603);
+            label8.Location = new Point(471, 655);
             label8.Name = "label8";
             label8.Size = new Size(102, 20);
             label8.TabIndex = 18;
@@ -206,15 +210,16 @@
             // 
             // discount
             // 
-            discount.Location = new Point(579, 515);
+            discount.Location = new Point(579, 538);
             discount.Name = "discount";
             discount.Size = new Size(208, 27);
             discount.TabIndex = 19;
+            discount.TextChanged += discount_TextChanged;
             // 
             // label9
             // 
             label9.AutoSize = true;
-            label9.Location = new Point(471, 515);
+            label9.Location = new Point(471, 538);
             label9.Name = "label9";
             label9.Size = new Size(83, 20);
             label9.TabIndex = 20;
@@ -232,7 +237,7 @@
             // 
             // button2
             // 
-            button2.Location = new Point(700, 636);
+            button2.Location = new Point(700, 688);
             button2.Name = "button2";
             button2.Size = new Size(87, 34);
             button2.TabIndex = 22;
@@ -262,12 +267,13 @@
             // 
             // button1
             // 
-            button1.Location = new Point(700, 548);
+            button1.Location = new Point(700, 599);
             button1.Name = "button1";
             button1.Size = new Size(87, 34);
             button1.TabIndex = 55;
             button1.Text = "Calculate";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // label10
             // 
@@ -287,11 +293,55 @@
             statusBox.Size = new Size(194, 28);
             statusBox.TabIndex = 56;
             // 
+            // label11
+            // 
+            label11.AutoSize = true;
+            label11.Font = new Font("Segoe UI", 7F);
+            label11.ForeColor = Color.Firebrick;
+            label11.Location = new Point(575, 571);
+            label11.Name = "label11";
+            label11.Size = new Size(216, 15);
+            label11.TabIndex = 58;
+            label11.Text = "*flat discount values are only applicable";
+            label11.Click += label11_Click;
+            // 
+            // orderId
+            // 
+            orderId.Enabled = false;
+            orderId.Location = new Point(579, 450);
+            orderId.Name = "orderId";
+            orderId.Size = new Size(208, 27);
+            orderId.TabIndex = 59;
+            // 
+            // label12
+            // 
+            label12.AutoSize = true;
+            label12.Location = new Point(471, 453);
+            label12.Name = "label12";
+            label12.Size = new Size(66, 20);
+            label12.TabIndex = 60;
+            label12.Text = "Order ID";
+            label12.Click += label12_Click;
+            // 
+            // clearBtn
+            // 
+            clearBtn.Location = new Point(579, 599);
+            clearBtn.Name = "clearBtn";
+            clearBtn.Size = new Size(87, 34);
+            clearBtn.TabIndex = 61;
+            clearBtn.Text = "Clear";
+            clearBtn.UseVisualStyleBackColor = true;
+            clearBtn.Click += clearBtn_Click;
+            // 
             // CustomerPos
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(854, 702);
+            ClientSize = new Size(854, 750);
+            Controls.Add(clearBtn);
+            Controls.Add(label12);
+            Controls.Add(orderId);
+            Controls.Add(label11);
             Controls.Add(label10);
             Controls.Add(statusBox);
             Controls.Add(button1);
@@ -353,5 +403,9 @@
         private Button button1;
         private Label label10;
         private ComboBox statusBox;
+        private Label label11;
+        private TextBox orderId;
+        private Label label12;
+        private Button clearBtn;
     }
 }

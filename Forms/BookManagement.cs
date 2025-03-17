@@ -78,11 +78,18 @@ namespace BookHaven.Forms
         {
             if (id.Text != null)
             {
-                int bookId = int.Parse(id.Text);
-                _bookService.DeleteBook(bookId);
-                LoadBooks();
-                ClearFields();
-                MessageBox.Show("Book deleted successfully.");
+
+                var result = MessageBox.Show("Are you sure you want to delete this book?",
+                "Confirm Deletion", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+
+                if (result == DialogResult.Yes) { 
+                
+                    int bookId = int.Parse(id.Text);
+                    _bookService.DeleteBook(bookId);
+                    LoadBooks();
+                    ClearFields();
+                    MessageBox.Show("Book deleted successfully.");
+                }
             }
             else
             {

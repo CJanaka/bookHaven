@@ -14,6 +14,6 @@ namespace BookHaven.Data.repository
         void Delete(User user);
         User GetById(int id);
         List<User> GetAll();
-        User GetUserByUsername(string username);
+        List<User> searchUser(string key);
     }
 }

@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using BookHaven.Business.services;
+using BookHaven.Common;
 
 namespace BookHaven.Forms
 {
@@ -32,7 +33,7 @@ namespace BookHaven.Forms
 
         private void cancelBtn_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
         }
 
         private void loginBtn_Click(object sender, EventArgs e)
@@ -46,8 +47,9 @@ namespace BookHaven.Forms
             {
                 MessageBox.Show($"Welcome {username}! You are logged in as {role}.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
+                SessionManager.CurrentRole = role;
                 this.Hide();
-                Form dashboard = role == "admin" ? new AdminDashboard() : new ClearkDashboard();
+                Form dashboard = new AdminDashboard();
                 dashboard.Show();
             }
             else
