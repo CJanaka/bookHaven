@@ -239,35 +239,40 @@ namespace BookHaven.Forms
                 order.Status = statusBox.Text;
             }
 
-            order.CreatedDate = DateTime.Now;
-            order.ModifiedDate = DateTime.Now;
-            order.CustomerId = int.Parse(cusId.Text);
-            order.UniqueId = stockOrderUid[0];
-            decimal.TryParse(total.Text, out decimal tot);
-            order.TotalAmount = tot;
-
-
-            if (discount.Text != null && !discount.Text.Trim().Equals(""))
+            try
             {
-                if (decimal.TryParse(discount.Text, out decimal disc))
+                order.CreatedDate = DateTime.Now;
+                order.ModifiedDate = DateTime.Now;
+
+
+                order.CustomerId = int.Parse(cusId.Text);
+                order.UniqueId = stockOrderUid[0];
+                decimal tot = decimal.Parse(total.Text);
+                order.TotalAmount = tot;
+
+                if (discount.Text != null && !discount.Text.Trim().Equals(""))
                 {
-                    order.Discount = disc;
-                    order.NetAmount = tot - disc;
+                    decimal dis = decimal.Parse(discount.Text);
+                    order.Discount = dis;
+                    order.NetAmount = tot - dis;
                 }
                 else
                 {
-                    MessageBox.Show("Invalid discount!");
-                };
-            }
-            else
-            {
-                order.NetAmount = tot;
-            }
+                    order.NetAmount = tot;
+                }
 
-            var ordDetail = _orderService.GetOrderDetailByOrderId(order.Id);
-            order.OrderDetails = ordDetail;
-            gross.Text = order.NetAmount.ToString();
-            _orderService.updateOrder(order);
+        
+                var ordDetail = _orderService.GetOrderDetailByOrderId(order.Id);
+                order.OrderDetails = ordDetail;
+                gross.Text = order.NetAmount.ToString();
+                _orderService.updateOrder(order);
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex);
+                MessageBox.Show("Error occured when saving data!");
+                return;
+            }
         }
 
         private void discount_TextChanged(object sender, EventArgs e)

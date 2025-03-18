@@ -11,6 +11,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using BookHaven.Business.services;
 using BookHaven.Data.entity;
+using RepoDb.Extensions;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
 namespace BookHaven.Forms
@@ -27,18 +28,42 @@ namespace BookHaven.Forms
 
         private void addBtn_Click(object sender, EventArgs e)
         {
-            var customer = new Customer
-            {
-                FirstName = fName.Text,
-                LastName = lName.Text,
-                Contact = contact.Text,
-                Email = email.Text,
-                Address = address.Text,
-                PostalCode = pCode.Text
-            };
+            try {
 
-            _customerService.AddCustomer(customer);
-            MessageBox.Show("Customer added successfully!");
+                if(contact.Text.IsNullOrEmpty())
+                { 
+                    MessageBox.Show("Contact number required!");
+                    return;
+                }
+                
+                if(!email.Text.IsNullOrEmpty())
+                {
+                    if (!Common.Common.IsValidEmail(contact.Text)) {
+                        MessageBox.Show("Invalid email!");
+                        return;
+                    }
+                }
+
+
+                var customer = new Customer
+                {
+                    FirstName = fName.Text,
+                    LastName = lName.Text,
+                    Contact = contact.Text,
+                    Email = email.Text,
+                    Address = address.Text,
+                    PostalCode = pCode.Text
+                };
+
+                _customerService.AddCustomer(customer);
+                MessageBox.Show("Customer added successfully!");
+            }
+            catch (Exception ex) { 
+                Debug.WriteLine(ex);
+                MessageBox.Show("Customer adding failed!");
+                return;
+            }
+
             clearFields();
             loadCustomers();
         }

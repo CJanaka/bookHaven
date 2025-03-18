@@ -62,12 +62,6 @@ namespace BookHaven.Data.repository
 
         public List<Order> GetByDateRange(DateTime startDate, DateTime endDate)
         {
-            //return _context.Orders
-            //    .Include(o => o.Customer)
-            //    .Include(o => o.ModifiedUser)
-            //    .Include(o => o.OrderDetails.Select(od => od.Book))
-            //    .Where(o => o.CreatedDate >= startDate && o.CreatedDate <= endDate)
-            //    .ToList();
 
             return _context.Orders
                 .Where(o => o.CreatedDate >= startDate && o.CreatedDate <= endDate)
